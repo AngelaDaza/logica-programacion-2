@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica JS</title>
+</head>
+<body>
+    <!-- Aqui inicia el encabezado -->
+    <header class="encabezado">
+        <h1 class="encabezado__title">PRÁCTICA DE CONVERSIONES DE TEMPERATURAS</h1>
+    </header>
+    <!-- Aqui finaliza el encabezado -->
+    <!-- Aqui inicia el formulario -->
+    <section class="contenedor">
+        <div class="contenedor__title">
+            <p class="contenedor__parrafo">Ingrese el siguiente dato:</p>
+        </div>
+        <div class="contenedor__boxFormulario">
+            <form method="post" action="" class="formulario">
+                <div class="contenedor__celsius">
+                    <label for="celsius">Temperatura en grados Celsius</label>
+                    <input id="celsius" name="celsius" type="number" required>
+                </div>
+                <p class="contenedor__parrafo">Seleccione a que tipo de temperatura quiere convertir</p>
+                <input type="button" class="contenedor__btn" id="fahrenheit" value="Fahrenheit">
+                <input type="button" class="contenedor__btn" id="kelvin" value="Kelvin">
+            </form>
+        </div>
+
+        <div class="resultado">
+            <h2>El resultado es: <span></span></h2>
+        </div>
+    </section>
+    <!-- Aqui finaliza el formulario -->
+    <!-- Aqui inicia el footer -->
+    <footer class="footer">© 2024 Copyright: Angela Daza</footer>
+    <!-- Aqui inicia el footer -->
+    <script src="script.js"></script>
+</body>
+</html>
